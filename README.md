@@ -8,7 +8,7 @@ This is the companion application for the [Middleman: Getting Started](https://g
 # clone the code
 git clone https://github.com/nanobox-quickstarts/nanobox-middleman.git
 
-# cd into the sinatra app
+# cd into the middleman app
 cd nanobox-middleman
 
 # build the code
@@ -26,7 +26,7 @@ nanobox dev console
 # install gems
 bundle install
 
-# run middlmean server
+# run middleman server
 bundle exec middleman server
 ```
 
