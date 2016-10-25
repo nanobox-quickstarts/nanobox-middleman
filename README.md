@@ -11,11 +11,8 @@ git clone https://github.com/nanobox-quickstarts/nanobox-middleman.git
 # cd into the middleman app
 cd nanobox-middleman
 
-# build the runtime, skip code compile
-nanobox build --skip-compile
-
-# deploy the runtime to the dev environment
-nanobox dev deploy
+# start the dev environment
+nanobox dev start
 
 # add a convenient way to access your app from the browser
 nanobox dev dns add middleman.nanobox.dev
