@@ -1,6 +1,6 @@
 # Middleman with Nanobox
 
-This is the companion application for the [Middleman: Getting Started](https://guides.nanobox.io/middleman/) guide on [guides.nanobox.io](https://guides.nanobox.io) and is pre-configured and ready to run with [Nanobox](https://nanobox.io/)!
+This is a quickstart for getting [Middleman](https://middlemanapp.com/) up and running with [Nanobox](https://nanobox.io/).
 
 ## Up and Running
 
@@ -11,23 +11,12 @@ git clone https://github.com/nanobox-quickstarts/nanobox-middleman.git
 # cd into the middleman app
 cd nanobox-middleman
 
-# start the dev environment
-nanobox dev start
-
 # add a convenient way to access your app from the browser
-nanobox dev dns add middleman.nanobox.dev
+nanobox dns add local middleman.dev
 
-# console into the dev environment
-nanobox dev console
-
-# install gems
-bundle install
-
-# run middleman server
-bundle exec middleman server
+# start the dev environment and middleman
+nanobox run middleman
 ```
 
-Visit the app from your favorite browser at: `middleman.nanobox.dev:4567`.
+Visit the app from your favorite browser at [middleman.dev:4567](http://middleman.dev:4567.
 
-## Now What?
-For more details about how this works or for more advanced topics related to running Middleman applications with Nanobox, visit [guides.nanobox.io/middleman/](https://guides.nanobox.io/middleman/).
