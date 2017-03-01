@@ -18,5 +18,5 @@ nanobox dns add local middleman.dev
 nanobox run middleman
 ```
 
-Visit the app from your favorite browser at [middleman.dev:4567](http://middleman.dev:4567.
+Visit the app from your favorite browser at [middleman.dev:4567](http://middleman.dev:4567).
 
